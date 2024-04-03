@@ -56,11 +56,11 @@
       }
 
       var buildUrl = "Build";
-      var loaderUrl = buildUrl + "/WebBuild.loader.js";
+      var loaderUrl = buildUrl + "/NewWebBuild.loader.js";
       var config = {
-        dataUrl: buildUrl + "/WebBuild.data",
-        frameworkUrl: buildUrl + "/WebBuild.framework.js",
-        codeUrl: buildUrl + "/WebBuild.wasm",
+        dataUrl: buildUrl + "/NewWebBuild.data",
+        frameworkUrl: buildUrl + "/NewWebBuild.framework.js",
+        codeUrl: buildUrl + "/NewWebBuild.wasm",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "Mobaso",
         productName: "Lipton",
@@ -80,7 +80,7 @@
         // Avoid draining fillrate performance on mobile devices,
         // and default/override low DPI mode on mobile browsers.
         config.devicePixelRatio = 1;
-       // unityShowBanner('WebGL builds are not supported on mobile devices.');
+     //   unityShowBanner('WebGL builds are not supported on mobile devices.');
       } else {
         canvas.style.width = "400px";
         canvas.style.height = "760px";
